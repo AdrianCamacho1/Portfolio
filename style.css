@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header .tabs {
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+}
+
+header .tabs div ul {
+    border-block: solid;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+header .tabs div ul li {
+    display: flex;
+    flex-wrap: none;
+    list-style-type: none;
+}
