@@ -4,6 +4,19 @@
     margin: 0;
 }
 
+header {
+    font-size: large;
+}
+
+h1 {
+    display: flex;
+    border-radius: 20%;
+    color: rgb(68, 68, 68);
+    background-color: rgb(201, 211, 192);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+
 header .tabs {
     display: flex;
     justify-content: space-between;
@@ -11,14 +24,94 @@ header .tabs {
 }
 
 header .tabs div ul {
+    font-size: 35px;
+    padding: 30px;
     border-block: solid;
     display: flex;
     flex-direction: row;
-    align-content: space-between;
 }
 
-header .tabs div ul li {
-    display: flex;
-    flex-wrap: none;
+header .tabs ul li {
     list-style-type: none;
+    background-color: aliceblue;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: chocolate;
+    font-family: fantasy;
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-top: 25px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(128, 128, 128, 0.815);
+    background-color: rgba(243, 243, 185, 0.815);
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: cadetblue;
+    background-color: rgba(243, 243, 185, 0.815);
+}
+
+h4 {
+    font-size: 30px;
+    margin-top: 25px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(128, 128, 128, 0.815);
+}
+
+.Boxs {
+    display: flex;
+    
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(243, 243, 185, 0.815);
+}
+
+.Boxs .work ul li {
+    list-style: none;
+    margin-left: 20px;
+    margin-bottom: 32px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+h5 {
+    font-size: 30px;
+    margin-top: 25px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(128, 128, 128, 0.815);
+}
+
+.contact-me {
+    background-color: rgba(233, 218, 207, 0.637);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact-me ul {
+    display: flex;
+    justify-content: row;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: monospace;
+}
+
+h6 {
+    font-size: 30px;
+    margin-top: 25px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(128, 128, 128, 0.815);
 }
